@@ -1,0 +1,18 @@
+h1 {text-align: center;}
+#Setup {height: 100; width: 100%auto;}
+.ma { border-style: dashed; background-image: linear-gradient(to right, aqua, red ); height: 100px; width: 100%auto ;}
+#style {text-align: center; position: relative; top: -15px; }
+p {text-align: center;  position: relative; top: -15px; font-size: small;}
+#right {position: absolute; height: 50px;  top: 70px; right: 10px;}
+.cycle { border-style: dotted; background-image: linear-gradient(to right, red , greenyellow); height: 100px; width: 100%auto;}
+#left {position: absolute; height: 45px;  top: 170px; left: 10px;}
+#left2 {position: absolute; height: 45px;  top: 275px; left: 10px;}
+.android {border-style: groove; background-image: linear-gradient(to right, greenyellow , wheat); height: 100px; width: 100%auto;}
+#right2 {position: absolute; height: 50px;  top:  275px; right: 10px;}
+#p2 {text-align: justify;}
+
+.Open-Source {border-style: solid; background-image: linear-gradient(to right, wheat, #1793d1); height: 100px; width: 100%auto;}
+#left3 {position: absolute; height: 45px;  top: 375px; left: 10px;}
+.Arch {border-style: solid; background-image: linear-gradient(to right, white, wheat); height: 100px; width: 100%auto;}
+#left4 {position: absolute; height: 45px;  top: 475px; left: 10px;}
+#right4 {position: absolute; height: 45px;  top: 475px; right: 10px;}

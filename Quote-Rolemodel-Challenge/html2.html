@@ -1,0 +1,39 @@
+<style>
+img {height: 500px; width: 500px;}
+</style>
+<script>
+var img  = document.querySelector('img');
+var button = document.querySelector('#button');
+
+var total = 0;
+function dealcard() {
+  total += Math.floor(Math.random() * 1 + 1);
+  document.getElementById('demo').value = total;
+  document.getElementById('demo').innerHTML = total;
+  if (total % 2 == 0 ) {
+      document.getElementById("demo").innerHTML = "Mode Quote!";
+  } else { 
+      document.getElementById("demo").innerHTML = "Mode Image!";
+  }
+}
+
+var total2 = 0;
+function myFunc() {
+    total2 += Math.floor(Math.random() * 1 + 1);
+    document.getElementById('demo2').value = total2;
+    document.getElementById('demo2').innerHTML = total2;
+    if (total2 % 2 == 0 ) {
+        document.getElementById("myimg").src = "quote.jpg"
+    }  else {
+        document.getElementById("myimg").src = "bruh.jpg"
+    }
+
+}
+</script>
+<p id="demo"> </p>
+Times you Clicked: <input type="text" id="demo2">
+
+<img  id="myimg" src="quote.jpg" alt="quote">
+
+<br />
+<button onclick="dealcard(); myFunc()">Change Mode!</button>
