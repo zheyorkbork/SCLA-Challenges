@@ -24,15 +24,18 @@ function myFunc() {
     document.getElementById('demo2').innerHTML = total2;
     if (total2 % 2 == 0 ) {
         document.getElementById("myimg").src = "quote.jpg"
-    }  else {
+        document.getElementById("textchng").innerHTML = "I like this quote because it tells you that you even though you didn't take action in your past, you have a chance to do it now. I think this goes hand with 'if you have time to worry, then run'. "
+
+    }  else {        
         document.getElementById("myimg").src = "kobebryant.jpg"
+        document.getElementById("textchng").innerHTML = "Kobe Bryant was a great inspiration for everyone and not just black or colored people, he said a lot of inspirational quotes and his story tells us that anyonce can be at the top or do something big."
     }
 
 }
 </script>
 <p id="demo"> </p>
 Times you Clicked: <input type="text" id="demo2">
-
+<p id="textchng" > I like this quote because it tells you that you even though you didn't take action in your past, you have a chance to do it now. I think this goes hand with 'if you have time to worry, then run'. </p>
 <img  id="myimg" src="quote.jpg" alt="quote">
 
 <br />
