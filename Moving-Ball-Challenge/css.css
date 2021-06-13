@@ -1,0 +1,29 @@
+#ball-container{
+    background-image: url("https://drive.google.com/uc?id=1kIdA6D9sSzbWl852LxErTo77EsLOVMVJ");
+position: relative;
+  border: solid thin black;
+  height: 260px;
+  margin-top: 25px;
+background-repeat: no-repeat;
+background-size: 100%;
+height: 485px;
+}
+#ball{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left:1px;
+  top:100;
+  border-radius: 50%;
+  background-color: blue;
+}
+#controls{
+  padding-top: 25px;
+  text-align: center;
+}
+.control-btn{
+  display: inline-block;
+  margin: 0 10px;
+  width: 100px;
+  height: 25px;
+}

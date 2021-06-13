@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+    <html>
+        <head>
+            <!-- SOURCING MY .JS FILE!!! -->
+            <script src="script.js" async></script> 
+            </script>
+        </head>
+        <body>
+            <link rel="stylesheet" type="text/css" href="css.css">
+            <h1>JavaScript 2: Move the ball!</h1>
+            <div> 
+                <p id="x"> x:0</p>
+                <p id="y"> y:0</p>
+            </div>
+            
+            <div id="ball-container">
+                <!-- CHANGED THE BALL INTO A BUTTON SO THAT YOU CAN CLICK ON IT-->
+                <button id="ball" onclick="transform(); transform2(); transform3();"></button>
+            </div>
+            <div id="controls">
+                <button class="control-btn" id="down" onclick="mvDown()">Down</button>
+                <button class="control-btn" id="up" onclick="mvUp()">Up</button>
+                <button class="control-btn" id="left" onclick="mvLeft()">Left</button>
+                <button class="control-btn" id="right" onclick="mvRight()">Right</button>
+            </div>
+        </body>
+    </html>
