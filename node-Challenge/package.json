@@ -1,0 +1,14 @@
+{
+  "name": "nodelesson",
+  "version": "1.0.0",
+  "description": "best node user here",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Amador",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
