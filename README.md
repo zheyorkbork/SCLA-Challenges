@@ -1,7 +1,19 @@
 # SCLA-Challenges
-a repository where I submit the challenges.
+The Repository where I submit the ** SCLA Challenges. **
 
-The Moving Ball is JS challenge #2
-Quote Role-Modle was JS challenge @1
-Community challenge was CSS challenge
-The VSCodium Lecture is the lecture of VScode and the github challenge.
+- Community Challenge is the css challenge
+
+- Quote Rolemodel Challenge is JS challenge #1
+
+-Moving Ball Challenge is JS challenge #2
+
+- Vscodium lecture is the Vs code challenge & lecture
+> VSCodium > VsCode
+
+- Node Chalenge is the nodejs challenge
+
+
+# Files
+
+- If you clone and notice, there is a .gitignore file and if you read it's contents, just don't worry what .sh means ;)
+
