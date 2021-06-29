@@ -13,8 +13,6 @@ The Repository where I submit the **SCLA Challenges**.
 
 - Node Chalenge is the nodejs challenge
 
+# NOTE!!!!
 
-# Files
-
-If you clone and notice, there is a **.gitignore** file and if you read it's contents, just don't worry what .sh means **;)**
-
+I did not manage to do the id part of the MongoDB and postman part
