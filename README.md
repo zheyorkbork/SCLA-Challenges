@@ -5,9 +5,9 @@ node the index.js file and you can either go to postman or
 your webbrowser and go to localhost:4200
 
 you can choose either of these 3 routes,
-    /activity
-    /param/{activity} ex /param/diy
-    /Oneactivity
+- /activity
+- /param/{activity} ex /param/diy
+- /Oneactivity
 NOTE: The /Oneactivity only shows the activity: "" data.
 
 
