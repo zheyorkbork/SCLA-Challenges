@@ -1,3 +1,17 @@
+# IMPORTANT
+
+I finished the API challenge and just to explain how it works, you basically 
+node the index.js file and you can either go to postman or
+your webbrowser and go to localhost:4200
+
+you can choose either of these 3 routes,
+    /activity
+    /param/{activity} ex /param/diy
+    /Oneactivity
+NOTE: The /Oneactivity only shows the activity: "" data.
+
+
+
 # SCLA-Challenges
 The Repository where I submit the **SCLA Challenges**.
 
