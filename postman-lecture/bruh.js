@@ -69,11 +69,11 @@ app.get('/getHeroes', function(req, res){
     })
 })
 
-app.post('/findHeroByID', function(req,res){
+app.get('/findHeroByID', function(req,res){
     db.collection('blogs').findOne({
         _id: req.body._id
     })
-    db.collection('blogs').find({"_id" : ObjectId(req.body._id)}).toArray( function(error, documents){
+    db.collection('blogs').find({"_id" : ObjectId("60da7c4f67cc203d7c359970")}).toArray( function(error, documents){
     if (error) throw error;
     console.log(documents)
     res.send(documents)
