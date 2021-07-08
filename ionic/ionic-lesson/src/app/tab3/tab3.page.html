@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 3
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Friends!</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-list>
+    <ion-list-header>
+      Friends and info
+    </ion-list-header>
+
+    <ion-item *ngFor = "let friend of friendsArr">
+      <ion-avatar slot="start">
+        <img src={{friend.imgSrc}}>
+      </ion-avatar>
+      <ion-label>
+        <h2>{{friend.name}}</h2>
+        <h3>Phone Number</h3>
+        <p>{{friend.phoneNumber}}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+  <!-- <app-explore-container name="Tab 3 page"></app-explore-container> -->
+</ion-content>
