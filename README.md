@@ -27,6 +27,3 @@ The Repository where I submit the **SCLA Challenges**.
 
 - Node Chalenge is the nodejs challenge
 
-# NOTE!!!!
-
-I did not manage to do the id part of the MongoDB and postman part
